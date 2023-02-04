@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { Pokemon } from '../../models/pokeModels';
 import { Component } from '../component/component';
-
+import './card.scss';
 export class Card extends Component {
   constructor(public selector: string, public pokemon: Pokemon) {
     super();

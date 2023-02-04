@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable no-new */
 import { Card } from './components/card/card';
 import { Header } from './components/header/header';
