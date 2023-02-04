@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { Component } from '../component/component';
+import './header.scss';
 
 export class Header extends Component {
   constructor(public selector: string, public title: string = 'PokeDex') {
@@ -10,10 +11,11 @@ export class Header extends Component {
 
   private createTemplate() {
     return `
-    <header class="header">
+    <span class="header">
     <img src="pokemon-logo.svg" alt="" srcset="">
     <h1 class = "title">${this.title}</h1>
-    </header>`;
+    <img class="evol" src="evol.jpg" alt="" srcset="">
+    <span>`;
   }
 
   render(place: globalThis.InsertPosition) {
