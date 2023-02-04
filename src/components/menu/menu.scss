@@ -1,0 +1,9 @@
+nav {
+  background-color: bisque;
+  min-height: 6vh;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
