@@ -5,8 +5,7 @@ export type HasId = {
 
 export type ProtoPokeStructure = {
   name: string;
-  order: number;
-  weight: number;
+  image: string;
   isFavorite: boolean;
 };
 
@@ -14,13 +13,9 @@ export type PokeStructure = HasId & ProtoPokeStructure;
 
 export class Pokemon implements PokeStructure {
   public isFavorite: boolean;
+  public id!: string;
 
-  constructor(
-    public id: string,
-    public name: string,
-    public order: number,
-    public weight: number
-  ) {
+  constructor(public name: string, public image: string) {
     this.isFavorite = false;
   }
 }
