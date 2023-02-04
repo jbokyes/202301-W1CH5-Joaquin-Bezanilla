@@ -24,7 +24,6 @@ export default function fetchPokemon(): void {
         $figure.appendChild($figcaption);
         fragment.appendChild($figure);
       });
-      console.log(res);
       $pokeBox.appendChild(fragment);
     });
 }

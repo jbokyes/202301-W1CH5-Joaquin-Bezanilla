@@ -14,7 +14,7 @@ export class Header extends Component {
     <span class="header">
     <img src="pokemon-logo.svg" alt="" srcset="">
     <h1 class = "title">${this.title}</h1>
-    <img class="evol" src="evol.jpg" alt="" srcset="">
+    <img class="evol" src="dragonite.png" alt="" srcset="">
     <span>`;
   }
 
